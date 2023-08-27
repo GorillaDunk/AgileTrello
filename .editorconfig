@@ -1,0 +1,15 @@
+# 많은 개발자들이 다양한 Editor나 IDE의 관계없이 일정한 코드 스타일을
+# 유지하기 위해 도와주는 설정 파일
+# 파일 형태로 유지되며 읽기 쉽고 스타일에 대한 형상관리가 가능하다
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
