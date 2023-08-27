@@ -13,9 +13,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Task Agile</name>
 	<description>Open source task management tool</description>
-	<properties>
-		<java.version>17</java.version>
+
+  <properties>
+		<java.version>8</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -29,6 +31,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+  <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+  <dependency>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <version>8.1.0</version>
+    </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
